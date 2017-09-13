@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* contact設定
+   =================================================================== */
+main {
+  display: block;
+  position: absolute;
+  width: 740px;
+  top: calc(50%);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  main.thanks {
+    text-align: center; }
+  main ul {
+    margin-bottom: 40px; }
+    main ul li {
+      margin-bottom: 28px; }
+      main ul li.confirm dd {
+        line-height: 50px; }
+      main ul li dt {
+        position: absolute;
+        width: 182px;
+        top: auto;
+        left: 0;
+        line-height: 50px; }
+        main ul li dt.select {
+          line-height: inherit; }
+        main ul li dt span {
+          color: #e60012;
+          margin-left: 5px; }
+      main ul li dd {
+        margin-left: 182px;
+        width: 580px; }
+        main ul li dd select {
+          width: 180px; }
+        main ul li dd input {
+          background: #f1f1f1;
+          border: #dcdcdc 1px solid;
+          padding: 16px 20px;
+          width: calc(100% - 22px); }
+          main ul li dd input:focus {
+            background: #fff; }
+        main ul li dd.short input {
+          width: 330px; }
+      main ul li textarea {
+        background: #f1f1f1;
+        border: #dcdcdc 1px solid;
+        padding: 16px 20px;
+        width: 100%; }
+        main ul li textarea:focus {
+          background: #fff; }
+      main ul li.confirm--comment {
+        max-height: 200px;
+        overflow: scroll; }
+  main .submit_btn {
+    display: block;
+    width: 228px;
+    height: 62px;
+    line-height: 62px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+    background: inherit;
+    cursor: pointer;
+    border: none;
+    background: url("../img/contents/contact/btn--arrow.png") no-repeat right 58px center;
+    background-size: 19px auto;
+    font-weight: bold;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    main .submit_btn:hover {
+      opacity: .5; }
+  main.confirmation ul li dt {
+    line-height: inherit; }
+
+@media screen and (max-width: 768px) {
+  /* news SP
+  =================================================================== */
+  main {
+    position: relative;
+    width: auto;
+    top: auto;
+    left: auto;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    margin: 25px; }
+    main.thanks {
+      margin-top: 80px; }
+      main.thanks br {
+        display: block; }
+    main ul {
+      margin-bottom: 20px; }
+      main ul li {
+        margin-bottom: 20px; }
+        main ul li.confirm dd {
+          line-height: inherit; }
+        main ul li dt {
+          position: relative;
+          width: auto;
+          line-height: inherit; }
+        main ul li dd {
+          margin-left: 0;
+          width: 100%; }
+          main ul li dd input {
+            padding: 10px 20px;
+            width: 100%; }
+          main ul li dd.short input {
+            width: 100%; }
+        main ul li textarea {
+          padding: 10px 20px; }
+    main .submit_btn {
+      width: 228px;
+      height: 46px;
+      line-height: 46px;
+      font-size: 13px; } }

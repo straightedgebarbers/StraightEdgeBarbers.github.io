@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+
+/* reset
+   =================================================================== */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,p,blockquote,th,td,article,section,aside,header,nav{
+	margin:0;
+	padding:0;
+}
+
+address,caption,cite,code,dfn,var{
+	font-style:normal;
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:100%;
+}
+
+object,embed{
+	vertical-align:top;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+h1{
+	line-height:1.5em;
+}
+img,abbr,acronym,fieldset,hr{
+	border:0;
+}
+
+li{
+	list-style-type:none;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+/* form */  
+button,fieldset,form,input,label,legend,select,textarea{
+	font-size:100%;
+}
+input{
+	vertical-align: bottom;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* html,body
+   =================================================================== */
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:13px;
+	line-height:2.1;
+	font-family: 'nimbus-sans','Noto Sans Japanese', sans-serif;
+	-moz-osx-font-smoothing: grayscale;
+    -moz-text-size-adjust: none;
+	font-weight: 400;
+	text-align:left;
+	color:#000;
+	background:#fff;
+	 -webkit-text-size-adjust: none;
+	border:none;
+	
+}
+ @media only screen and (max-width: 768px) {
+body{
+	line-height:1.8;
+	font-size:12px;
+}
+ }
+
+/* リンク設定
+   =================================================================== */
+a{
+/*\*/
+   overflow: hidden;
+   display: block;
+/**/
+}
+
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration:none;
+}
+
+
+/* clear
+   =================================================================== */
+/* float */
+.clearfix:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix{
+display:inline-block;
+}
+/* Hides from IE-mac \*/
+*html .clearfix{
+height:1%;
+}
+.clearfix{
+display:block;
+}
+/* End hide from IE-mac */

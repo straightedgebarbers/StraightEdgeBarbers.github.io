@@ -1,0 +1,90 @@
+@keyframes lineAnime {
+  0% {
+    stroke-dashoffset: 4000;
+    fill: transparent; }
+  90% {
+    stroke-dashoffset: 2000;
+    fill: transparent; }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000; } }
+@-webkit-keyframes lineAnime {
+  0% {
+    stroke-dashoffset: 4000;
+    fill: transparent; }
+  90% {
+    stroke-dashoffset: 2000;
+    fill: transparent; }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #000; } }
+/* concept
+=================================================================== */
+.concept__container {
+  display: block;
+  position: absolute;
+  width: 1040px;
+  top: calc(50% - 50px);
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  .concept__container .textAnime span {
+    opacity: 0; }
+  .concept__container h2 {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 44px;
+    font-weight: bold;
+    letter-spacing: 0.18em; }
+  .concept__container .concept__text {
+    font-size: 14px;
+    margin-bottom: 77px;
+    font-weight: bold;
+    line-height: 2.5;
+    letter-spacing: 0.03em; }
+    .concept__container .concept__text p {
+      margin-bottom: 18px; }
+  .concept__container .concept__profile {
+    position: relative; }
+    .concept__container .concept__profile dt {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      width: 97px;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 0.2em; }
+    .concept__container .concept__profile dd {
+      margin-left: 97px;
+      font-size: 14px;
+      letter-spacing: 0.02em; }
+      .concept__container .concept__profile dd:last-child {
+        font-size: 11px; }
+
+@media screen and (max-width: 768px) {
+  /* news SP
+  =================================================================== */
+  .concept__container {
+    width: 306px;
+    top: calc(50% - 40px); }
+    .concept__container h2 {
+      font-size: 16px;
+      margin-bottom: 22px; }
+    .concept__container .concept__text {
+      font-size: 9px;
+      margin-bottom: 28px;
+      line-height: 1.9; }
+      .concept__container .concept__text p {
+        margin-bottom: 14px; }
+        .concept__container .concept__text p:last-child {
+          font-size: 10px;
+          line-height: 1.6; }
+    .concept__container .concept__profile dt {
+      width: 68px;
+      font-size: 9px;
+      top: 1px; }
+    .concept__container .concept__profile dd {
+      margin-left: 68px;
+      font-size: 10px; }
+      .concept__container .concept__profile dd:last-child {
+        font-size: 8px; } }
